@@ -3,9 +3,8 @@
 [ext_resource type="Texture2D" uid="uid://bf0ijemw5j4e4" path="res://Assets/Magic ruins/stones/stones.png" id="1_f3sb7"]
 [ext_resource type="Texture2D" uid="uid://bpte8g7vshjdn" path="res://Assets/Magic ruins/ground/grass.png" id="1_tlwt5"]
 [ext_resource type="Texture2D" uid="uid://c8t7u2v17mjds" path="res://Assets/Screenshot 2026-11-14 144612.png" id="2_aqk2v"]
-[ext_resource type="Texture2D" uid="uid://cme1x01sownos" path="res://Assets/Magic ruins/rocks/rocks.png" id="4_aqk2v"]
-[ext_resource type="PackedScene" uid="uid://cmksvi6dxtmhv" path="res://player.tscn" id="3_player"]
 [ext_resource type="PackedScene" uid="uid://dbq3guc60040k" path="res://energy.tscn" id="2_fj7yv"]
+[ext_resource type="PackedScene" uid="uid://cmksvi6dxtmhv" path="res://player.tscn" id="3_player"]
 
 [node name="World" type="Node2D" unique_id=1974983953]
 
@@ -51,46 +50,88 @@ region_enabled = true
 region_rect = Rect2(0, 0, 32, 32)
 
 [node name="Rocktest5" type="Sprite2D" parent="Environment" unique_id=201994199]
-position = Vector2(731, 33.00001)
+position = Vector2(735.3559, 86.72106)
 scale = Vector2(4.397243, 6.3575664)
 texture = ExtResource("1_f3sb7")
 region_enabled = true
-region_rect = Rect2(0, 0, 32, 32)
+region_rect = Rect2(32, 96, 32, 32)
 
 [node name="Rocktest7" type="Sprite2D" parent="Environment" unique_id=1925721140]
-position = Vector2(619, 28.000002)
+position = Vector2(660, 27)
 scale = Vector2(4.397243, 6.3575664)
 texture = ExtResource("1_f3sb7")
 region_enabled = true
-region_rect = Rect2(0, 0, 32, 32)
+region_rect = Rect2(0, 32, 32, 32)
 
 [node name="Rocktest10" type="Sprite2D" parent="Environment" unique_id=1660722095]
-position = Vector2(453.99997, 13)
+position = Vector2(453.3559, 15.721062)
 scale = Vector2(4.397243, 6.3575664)
 texture = ExtResource("1_f3sb7")
 region_enabled = true
-region_rect = Rect2(0, 0, 32, 32)
+region_rect = Rect2(0, 32, 32, 32)
+
+[node name="Rocktest24" type="Sprite2D" parent="Environment" unique_id=283785323]
+position = Vector2(506.99997, 5.000002)
+scale = Vector2(4.397243, 6.3575664)
+texture = ExtResource("1_f3sb7")
+region_enabled = true
+region_rect = Rect2(0, 64, 32, 32)
+
+[node name="Rocktest25" type="Sprite2D" parent="Environment" unique_id=2147365634]
+position = Vector2(602, 18.000002)
+scale = Vector2(4.397243, 6.3575664)
+texture = ExtResource("1_f3sb7")
+region_enabled = true
+region_rect = Rect2(0, 64, 32, 32)
+
+[node name="Rocktest11" type="Sprite2D" parent="Environment" unique_id=327434676]
+position = Vector2(743.35596, 149.72104)
+scale = Vector2(4.397243, 6.3575664)
+texture = ExtResource("1_f3sb7")
+region_enabled = true
+region_rect = Rect2(0, 32, 32, 32)
+
+[node name="Rocktest14" type="Sprite2D" parent="Environment" unique_id=306249554]
+position = Vector2(331.32205, 71.139465)
+scale = Vector2(5.5423727, 6.1787825)
+texture = ExtResource("1_f3sb7")
+region_enabled = true
+region_rect = Rect2(32, 32, 32, 32)
+
+[node name="Rocktest23" type="Sprite2D" parent="Environment" unique_id=1870504261]
+position = Vector2(730.35596, 212.72104)
+scale = Vector2(4.397243, 6.3575664)
+texture = ExtResource("1_f3sb7")
+region_enabled = true
+region_rect = Rect2(32, 32, 32, 32)
 
 [node name="Rocktest12" type="Sprite2D" parent="Environment" unique_id=1245210482]
 position = Vector2(393.00003, 31.000004)
 scale = Vector2(4.397243, 6.3575664)
 texture = ExtResource("1_f3sb7")
 region_enabled = true
-region_rect = Rect2(0, 0, 32, 32)
+region_rect = Rect2(32, 0, 32, 32)
 
 [node name="Rocktest13" type="Sprite2D" parent="Environment" unique_id=1514154160]
-position = Vector2(293, 110)
+position = Vector2(297.3559, 163.72105)
 scale = Vector2(4.397243, 6.3575664)
 texture = ExtResource("1_f3sb7")
 region_enabled = true
-region_rect = Rect2(0, 0, 32, 32)
+region_rect = Rect2(32, 96, 32, 32)
+
+[node name="Rocktest26" type="Sprite2D" parent="Environment" unique_id=1874335627]
+position = Vector2(556, 15.000002)
+scale = Vector2(4.3972425, 6.357566)
+texture = ExtResource("1_f3sb7")
+region_enabled = true
+region_rect = Rect2(32, 64, 32, 32)
 
 [node name="Rocktest15" type="Sprite2D" parent="Environment" unique_id=1095378708]
 position = Vector2(292.00003, 240.00002)
 scale = Vector2(4.397243, 6.3575664)
 texture = ExtResource("1_f3sb7")
 region_enabled = true
-region_rect = Rect2(0, 0, 32, 32)
+region_rect = Rect2(32, 0, 32, 32)
 
 [node name="Rocktest16" type="Sprite2D" parent="Environment" unique_id=1919010573]
 position = Vector2(316, 276)
@@ -99,12 +140,26 @@ texture = ExtResource("1_f3sb7")
 region_enabled = true
 region_rect = Rect2(0, 0, 32, 32)
 
+[node name="Rocktest24" type="Sprite2D" parent="Environment/Rocktest16" unique_id=2045658305]
+position = Vector2(75.95668, 5.033375)
+scale = Vector2(0.99999994, 0.99999994)
+texture = ExtResource("1_f3sb7")
+region_enabled = true
+region_rect = Rect2(0, 64, 32, 32)
+
+[node name="Rocktest25" type="Sprite2D" parent="Environment/Rocktest16" unique_id=1098165771]
+position = Vector2(93.695076, -36.96383)
+scale = Vector2(1.1797167, 0.8784859)
+texture = ExtResource("1_f3sb7")
+region_enabled = true
+region_rect = Rect2(0, 64, 32, 32)
+
 [node name="Rocktest17" type="Sprite2D" parent="Environment" unique_id=1221612815]
-position = Vector2(347, 322.00003)
+position = Vector2(357, 303.00003)
 scale = Vector2(4.397243, 6.3575664)
 texture = ExtResource("1_f3sb7")
 region_enabled = true
-region_rect = Rect2(0, 0, 32, 32)
+region_rect = Rect2(96, 0, 32, 32)
 
 [node name="Rocktest18" type="Sprite2D" parent="Environment" unique_id=910626345]
 position = Vector2(387, 343.00003)
@@ -118,7 +173,7 @@ position = Vector2(431, 349.00003)
 scale = Vector2(4.397243, 6.3575664)
 texture = ExtResource("1_f3sb7")
 region_enabled = true
-region_rect = Rect2(0, 0, 32, 32)
+region_rect = Rect2(0, 32, 32, 32)
 
 [node name="Rocktest20" type="Sprite2D" parent="Environment" unique_id=317335341]
 position = Vector2(489, 348)
@@ -128,45 +183,11 @@ region_enabled = true
 region_rect = Rect2(0, 0, 32, 32)
 
 [node name="Rocktest21" type="Sprite2D" parent="Environment" unique_id=829310762]
-position = Vector2(554, 346)
-scale = Vector2(4.397243, 6.3575664)
+position = Vector2(578.5, 331.86053)
+scale = Vector2(7.9687495, 7.241283)
 texture = ExtResource("1_f3sb7")
 region_enabled = true
-region_rect = Rect2(0, 0, 32, 32)
-
-[node name="ROCKKKK" type="Sprite2D" parent="Environment" unique_id=39084269]
-position = Vector2(873, 328)
-scale = Vector2(3.304195, 4.070801)
-texture = ExtResource("4_aqk2v")
-region_enabled = true
-region_rect = Rect2(0, 0, 32, 32)
-
-[node name="ROCKKKK2" type="Sprite2D" parent="Environment" unique_id=328475014]
-position = Vector2(717, 259)
-scale = Vector2(3.304195, 4.070801)
-texture = ExtResource("4_aqk2v")
-region_enabled = true
-region_rect = Rect2(0, 0, 32, 32)
-
-[node name="ROCKKKK4" type="Sprite2D" parent="Environment" unique_id=674855380]
-position = Vector2(646, 57)
-scale = Vector2(3.304195, 4.070801)
-texture = ExtResource("4_aqk2v")
-region_enabled = true
-region_rect = Rect2(0, 0, 32, 32)
-
-[node name="ROCKKKK5" type="Sprite2D" parent="Environment" unique_id=1331119961]
-position = Vector2(524, 51)
-scale = Vector2(3.304195, 4.070801)
-texture = ExtResource("4_aqk2v")
-region_enabled = true
-region_rect = Rect2(0, 0, 32, 32)
-
-[node name="ROCKKKK3" type="Sprite2D" parent="Environment/ROCKKKK5" unique_id=1571430173]
-position = Vector2(59.621185, 26.776058)
-texture = ExtResource("4_aqk2v")
-region_enabled = true
-region_rect = Rect2(0, 0, 32, 32)
+region_rect = Rect2(96, 0, 32, 32)
 
 [node name="Rocktest22" type="Sprite2D" parent="Environment" unique_id=455730863]
 position = Vector2(608, 337.00003)
@@ -175,43 +196,10 @@ texture = ExtResource("1_f3sb7")
 region_enabled = true
 region_rect = Rect2(0, 0, 32, 32)
 
-[node name="Rocktest4" type="Sprite2D" parent="Environment/Rocktest22" unique_id=2106989454]
-position = Vector2(54.579666, 4.5614815)
-scale = Vector2(0.4076123, 0.49016926)
-texture = ExtResource("1_f3sb7")
-region_enabled = true
-region_rect = Rect2(0, 0, 32, 32)
-
-[node name="Rocktest5" type="Sprite2D" parent="Environment/Rocktest22" unique_id=1722876775]
-position = Vector2(59.127956, 4.404198)
-scale = Vector2(0.4076123, 0.49016926)
-texture = ExtResource("1_f3sb7")
-region_enabled = true
-region_rect = Rect2(0, 0, 32, 32)
-
-[node name="Rocktest6" type="Sprite2D" parent="Environment/Rocktest22" unique_id=1425351930]
-position = Vector2(63.903675, 4.404198)
-scale = Vector2(0.4076123, 0.49016926)
-texture = ExtResource("1_f3sb7")
-region_enabled = true
-region_rect = Rect2(0, 0, 32, 32)
-
-[node name="Rocktest7" type="Sprite2D" parent="Environment/Rocktest22" unique_id=222706598]
-position = Vector2(69.134224, 4.404198)
-scale = Vector2(0.4076123, 0.49016926)
-texture = ExtResource("1_f3sb7")
-region_enabled = true
-region_rect = Rect2(0, 0, 32, 32)
-
-[node name="Rocktest8" type="Sprite2D" parent="Environment/Rocktest22" unique_id=1862994529]
-position = Vector2(73.90994, 4.2469053)
-scale = Vector2(0.4076123, 0.49016926)
-texture = ExtResource("1_f3sb7")
-region_enabled = true
-region_rect = Rect2(0, 0, 32, 32)
+[node name="Energy" parent="." unique_id=2010203909 instance=ExtResource("2_fj7yv")]
+z_index = 100
+position = Vector2(455, 159)
 
 [node name="Player" parent="." unique_id=1574593903 instance=ExtResource("3_player")]
-position = Vector2(480, 270)
-
-[node name="Energy" parent="." unique_id=2010203909 instance=ExtResource("2_fj7yv")]
-position = Vector2(350, 250)
+z_index = 100
+position = Vector2(454, 159)
