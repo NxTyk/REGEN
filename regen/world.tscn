@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://cnajds5m5tht8"]
+
+[node name="World" type="Node2D" unique_id=1974983953]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=595965138]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 960.0
+offset_bottom = 540.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.20390087, 0.24001732, 0.18527171, 1)
