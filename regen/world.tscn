@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://cnajds5m5tht8"]
 
 [ext_resource type="PackedScene" uid="uid://cmksvi6dxtmhv" path="res://player.tscn" id="1_f3sb7"]
+[ext_resource type="PackedScene" uid="uid://dbq3guc60040k" path="res://energy.tscn" id="2_fj7yv"]
 
 [node name="World" type="Node2D" unique_id=1974983953]
 
@@ -16,3 +17,6 @@ color = Color(0.20390087, 0.24001732, 0.18527171, 1)
 
 [node name="Player" parent="." unique_id=1574593903 instance=ExtResource("1_f3sb7")]
 position = Vector2(480, 270)
+
+[node name="Energy" parent="." unique_id=2010203909 instance=ExtResource("2_fj7yv")]
+position = Vector2(350, 250)
