@@ -4,6 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://bpte8g7vshjdn" path="res://Assets/Magic ruins/ground/grass.png" id="1_tlwt5"]
 [ext_resource type="Texture2D" uid="uid://c8t7u2v17mjds" path="res://Assets/Screenshot 2026-11-14 144612.png" id="2_aqk2v"]
 [ext_resource type="Texture2D" uid="uid://cme1x01sownos" path="res://Assets/Magic ruins/rocks/rocks.png" id="4_aqk2v"]
+[ext_resource type="PackedScene" uid="uid://cmksvi6dxtmhv" path="res://player.tscn" id="3_player"]
+[ext_resource type="PackedScene" uid="uid://dbq3guc60040k" path="res://energy.tscn" id="2_fj7yv"]
 
 [node name="World" type="Node2D" unique_id=1974983953]
 
@@ -207,3 +209,9 @@ scale = Vector2(0.4076123, 0.49016926)
 texture = ExtResource("1_f3sb7")
 region_enabled = true
 region_rect = Rect2(0, 0, 32, 32)
+
+[node name="Player" parent="." unique_id=1574593903 instance=ExtResource("3_player")]
+position = Vector2(480, 270)
+
+[node name="Energy" parent="." unique_id=2010203909 instance=ExtResource("2_fj7yv")]
+position = Vector2(350, 250)
